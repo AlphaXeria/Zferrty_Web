@@ -1,51 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Our Website!</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name - Resume</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <header class="hero">
-        <div class="hero-content">
-            <h1>Welcome to Zferrty!</h1>
-            <p>Discover, Connect, Explore.</p>
-            <button class="cta-button" onclick="scrollToSection('about')">Learn More</button>
-        </div>
+<body class="bg-gray-100 text-gray-800">
+  <div class="max-w-4xl mx-auto mt-10 p-6 bg-white rounded-xl shadow-md">
+    <!-- Header -->
+    <header class="text-center mb-6">
+      <h1 class="text-3xl font-bold">Your Name</h1>
+      <p class="text-gray-600">Web Developer | UI/UX Designer | Freelancer</p>
+      <p class="text-sm text-gray-500">Email: your.email@example.com | Phone: (123) 456-7890</p>
+      <div class="mt-2">
+        <a href="#" class="text-blue-500 hover:underline">LinkedIn</a> ·
+        <a href="#" class="text-blue-500 hover:underline">GitHub</a> ·
+        <a href="#" class="text-blue-500 hover:underline">Portfolio</a>
+      </div>
     </header>
 
-    <section id="features" class="section">
-        <h2>What Can You Do Here?</h2>
-        <div class="feature-grid">
-            <div class="feature-item">
-                <h3>Explore Products</h3>
-                <p>Browse our extensive collection of unique handcrafted goods.</p>
-            </div>
-            <div class="feature-item">
-                <h3>Join Our Community</h3>
-                <p>Connect with like-minded individuals in our active forums.</p>
-            </div>
-            <div class="feature-item">
-                <h3>Access Knowledge</h3>
-                <p>Find in-depth articles and tutorials on a wide range of topics.</p>
-            </div>
-        </div>
+    <!-- Summary -->
+    <section class="mb-6">
+      <h2 class="text-xl font-semibold border-b pb-1 mb-2">Summary</h2>
+      <p>Passionate and detail-oriented web developer with 3+ years of experience in creating modern and responsive websites. Adept at working with front-end technologies and always eager to learn new tools and frameworks.</p>
     </section>
 
-    <section id="cta" class="section call-to-action">
-        <h2>Ready to Get Started?</h2>
-        <div class="cta-buttons">
-            <a href="#" class="cta-button primary">Shop Now</a>
-            <a href="#" class="cta-button secondary">Sign Up</a>
-        </div>
+    <!-- Experience -->
+    <section class="mb-6">
+      <h2 class="text-xl font-semibold border-b pb-1 mb-2">Work Experience</h2>
+      <div class="mb-4">
+        <h3 class="font-bold">Front-End Developer — Tech Company</h3>
+        <p class="text-sm text-gray-500">Jan 2022 – Present</p>
+        <ul class="list-disc list-inside">
+          <li>Developed responsive websites using React and Tailwind CSS.</li>
+          <li>Improved site performance by 30% through code optimization.</li>
+          <li>Collaborated with designers and backend developers in Agile teams.</li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-bold">Web Designer — Creative Studio</h3>
+        <p class="text-sm text-gray-500">Jul 2020 – Dec 2021</p>
+        <ul class="list-disc list-inside">
+          <li>Designed and built websites with HTML, CSS, and JavaScript.</li>
+          <li>Worked directly with clients to meet business objectives.</li>
+        </ul>
+      </div>
     </section>
 
-    <footer>
-        <p>&copy; 2025 [Your Website Name]. All rights reserved.</p>
-        <p>Questions? <a href="mailto:info@yourwebsite.com">Contact Us</a></p>
-    </footer>
+    <!-- Education -->
+    <section class="mb-6">
+      <h2 class="text-xl font-semibold border-b pb-1 mb-2">Education</h2>
+      <div>
+        <h3 class="font-bold">B.Sc. in Computer Science</h3>
+        <p class="text-sm text-gray-500">University of XYZ, 2016 – 2020</p>
+      </div>
+    </section>
 
-    <script src="script.js"></script>
+    <!-- Skills -->
+    <section class="mb-6">
+      <h2 class="text-xl font-semibold border-b pb-1 mb-2">Skills</h2>
+      <p>HTML, CSS, JavaScript, React, Tailwind CSS, Git, Figma, REST APIs</p>
+    </section>
+
+    <!-- Contact -->
+    <section>
+      <h2 class="text-xl font-semibold border-b pb-1 mb-2">Contact</h2>
+      <p>📧 your.email@example.com</p>
+      <p>📍 City, Country</p>
+    </section>
+  </div>
 </body>
 </html>
